@@ -1,5 +1,5 @@
 argo-cd:
-  # federate ids, act as a connector
+  # dex federate ids, act as a connector
   dex:
     enabled: false
   server:

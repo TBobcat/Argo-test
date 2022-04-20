@@ -1,4 +1,4 @@
-## manage all apps to be installed to the cluster
+## umbrella chat specifies dependenies
 apiVersion: v2
 name: argo-cd
 ## chart version of entire helm package

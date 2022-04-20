@@ -1,0 +1,4 @@
+#  abstraction of the application manifest
+apiVersion: v2
+name: root
+version: 1.0.0

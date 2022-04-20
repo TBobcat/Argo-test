@@ -1,3 +1,10 @@
+## ssh trick to use multiple git accounts
+git clone git@Hostname:Path/To/Repo.git
+
+https://gist.github.com/oanhnn/80a89405ab9023894df7
+
+################################################################################
+
 dialed up docker resource mem: 5G,  swap: 1G
 
 correct argocd chart version to latest in Chart.yaml
