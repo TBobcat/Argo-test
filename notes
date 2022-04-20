@@ -1,0 +1,3 @@
+dialed up docker resource mem: 5G,  swap: 1G
+
+correct argocd chart version to latest in Chart.yaml

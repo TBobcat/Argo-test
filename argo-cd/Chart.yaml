@@ -1,0 +1,10 @@
+## manage all apps to be installed to the cluster
+apiVersion: v2
+name: argo-cd
+## chart version of entire helm package
+version: 1.0.0
+dependencies:
+  - name: argo-cd
+    # search with helm search repo to find the latest version
+    version: 4.5.4
+    repository: https://argoproj.github.io/argo-helm
