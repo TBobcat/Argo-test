@@ -12,7 +12,7 @@ spec:
   source:
     # root level path of repo
     path: apps/
-    repoURL: https://github.com/arthurk/argocd-example-install.git
+    repoURL: https://github.com/TBobcat/Argo-test.git
     targetRevision: HEAD
   syncPolicy:
     automated:
