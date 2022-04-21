@@ -5,6 +5,8 @@ https://gist.github.com/oanhnn/80a89405ab9023894df7
 
 ################################################################################
 
+argocd practise in kind cluster locally, with app of apps structure
+
 dialed up docker resource mem: 5G,  swap: 1G
 
 correct argocd chart version to latest in Chart.yaml
