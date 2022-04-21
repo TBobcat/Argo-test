@@ -1,4 +1,4 @@
-#  abstraction of the application manifest
+#  metadata of the chart package
 apiVersion: v2
 name: root
 version: 1.0.0
