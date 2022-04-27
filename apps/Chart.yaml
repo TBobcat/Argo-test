@@ -1,4 +1,4 @@
-#  metadata of the chart package
+#  metadata of the chart package,  Chart.yaml is the umbrella chart
 apiVersion: v2
 name: root
 version: 1.0.0
