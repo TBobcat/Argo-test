@@ -1,10 +1,13 @@
-## umbrella chat specifies dependenies
 apiVersion: v2
 name: argo-cd
-## chart version of entire helm package
+# my chart version
 version: 1.0.0
 dependencies:
   - name: argo-cd
-    # search with helm search repo to find the latest version
-    version: 4.5.4
+    # repo chart version
+    version: 4.6.1
     repository: https://argoproj.github.io/argo-helm
+
+
+
+# kubectl get secret argocd-initial-admin-secret -o jsonpath="{.data.password}" -n argo-cd | base64 -d

@@ -1,11 +1,14 @@
 argo-cd:
-  # dex federate ids, act as a connector
   dex:
     enabled: false
   server:
-    extraArgs: ["--insecure"]
+    extraArgs:
+      - --insecure
     config:
       repositories: |
         - type: helm
           name: argo-cd
           url: https://argoproj.github.io/argo-helm
+
+
+## disabling dex, the identity provider auth part
